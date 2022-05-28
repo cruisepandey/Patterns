@@ -15,7 +15,7 @@ public class App implements Interface1, Interface2
 
 	@Override
 	public void test() {
-		System.out.println("Our own test method in ASCCAT-938 brach");
+		System.out.println("ASCCAT-947 will have new changes");
 		Interface1.super.a();
 		Interface1.b();
 	}
@@ -26,6 +26,10 @@ public class App implements Interface1, Interface2
 		Interface1.super.a();
 		Interface2.super.a();
 		Interface2.b();
+	}
+	
+	public void testMainMenu() {
+		System.out.println("This test is for main menu");
 	}
 
 }
