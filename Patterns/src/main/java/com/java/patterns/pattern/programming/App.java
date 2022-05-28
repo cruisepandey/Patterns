@@ -15,7 +15,7 @@ public class App implements Interface1, Interface2
 
 	@Override
 	public void test() {
-		System.out.println("Our own test method");
+		System.out.println("Our own test method in ASCCAT-938 brach");
 		Interface1.super.a();
 		Interface1.b();
 	}
